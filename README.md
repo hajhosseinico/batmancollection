@@ -1,4 +1,3 @@
-# Batman Collection
 # What is this project?
 A demo app which gets Batman collection from an API then shows the details.
 # Main Features
