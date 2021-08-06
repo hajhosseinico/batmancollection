@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="ir.hajhosseinico.yarabatmancollection.ui.splash.SplashFragment"
+        android:label="SplashFragment" >
+        <action
+            android:id="@+id/action_splashFragment_to_movieListFragment"
+            app:destination="@id/movieListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/movieListFragment"
+        android:name="ir.hajhosseinico.yarabatmancollection.ui.movielist.MovieListFragment"
+        android:label="MovieListFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_movieDetailFragment"
+            app:destination="@id/movieDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/movieDetailFragment"
+        android:name="ir.hajhosseinico.yarabatmancollection.ui.moviedetail.MovieDetailFragment"
+        android:label="MovieDetailFragment" />
+</navigation>
