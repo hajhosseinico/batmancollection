@@ -1,5 +1,6 @@
 # What is this project?
-A demo app which gets Batman collection from an API then shows the details.
+Demo video player app featuring pre-loading (with optional percentage), caching and playing videos in a recycler view using Google ExoVideoPlayer.
+
 # Main Features
 1. Kotlin
 2. MVVM
@@ -15,6 +16,7 @@ A demo app which gets Batman collection from an API then shows the details.
 12. Recycler view Using DiffUtil
 13. Screen Rotation
 14. Generic API response
+
 # Architecture: MVVM
 ![a](https://user-images.githubusercontent.com/8142223/128475126-08940086-b459-4486-b8eb-2f95932a7260.png)
 
